@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Blog</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <h1>Welcome to our Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <!-- Your other content goes here -->
+    <div class="corner-image">
+      <img src="WhatsApp Image 2022-11-26 at 06.59.33.jpg" alt="Corner Image">
+    </div>
+  </div>
+  
+
+  <div class="container">
+    <section class="main-section">
+      <h2>The Impact of Social Media on Society: A Comprehensive Analysis</h2>
+      <p>In the digital age, social media has revolutionized the way we communicate, connect, and share information. It has transformed society and brought both positive and negative effects. This blog post aims to provide a comprehensive analysis of the impact of social media on various aspects of our lives.</p>
+    </section>
+
+    <section class="blog-section">
+      <h3>Welcome to our Blog!</h3>
+      <ol>
+        <li><b>Communication and Connectivity:</b> Discuss how social media platforms have bridged geographical barriers, allowing people from different parts of the world to connect instantly. Explore the positive effects of enhanced communication, such as staying in touch with loved ones, fostering global friendships, and facilitating online communities.</li>
+        <li><b>Information Sharing and Awareness:</b> Explain how social media has become a powerful tool for sharing information and raising awareness on important issues. Discuss the role of social media in spreading news, supporting social causes, and facilitating public discourse. Explore examples of how social media has fueled social and political movements.</li>
+        <li><b>Personal Branding and Self-Presentation:</b> Explore the impact of social media on personal identity and self-presentation. Discuss the rise of influencer culture, the pressure to curate an ideal online persona, and the effects of seeking validation through likes and comments. Examine both the positive and negative implications of personal branding on mental well-being.</li>
+        <li><b>Social Interactions and Relationships:</b> Examine how social media has shaped social interactions and relationships. Discuss the potential for forming meaningful connections, but also the challenges of maintaining genuine relationships in the digital realm. Address issues such as cyberbullying, online harassment, and the impact of excessive social media use on mental health.</li>
+        <li><b>Privacy and Data Security:</b> Discuss the concerns surrounding privacy and data security in the era of social media. Explore how user data is collected, stored, and utilized by social media platforms. Address the implications of data breaches, surveillance, and the ethical considerations of sharing personal information online.</li>
+        <li><b>Influence on Lifestyle and Consumer Behavior:</b> Examine the impact of social media on consumer behavior and lifestyle choices. Discuss the rise of influencer marketing, the effects of social media on purchasing decisions, and the pressure to conform to societal trends. Explore both the positive aspects, such as access to diverse products and inspiration, as well as the potential for materialism and unhealthy comparisons.</li>
+      </ol>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Your Blog. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Function to display a welcome message
+    function displayWelcomeMessage() {
+      const welcomeMessage = document.createElement('h3');
+      welcomeMessage.textContent = 'Welcome to our Blog!';
+      document.body.appendChild(welcomeMessage);
+    }
+  
+    // Function to add a class for styling the welcome message
+    function addWelcomeClass() {
+      const welcomeMessage = document.querySelector('h3');
+      welcomeMessage.classList.add('live-effect');
+    }
+  
+    // Function to remove the welcome message after a certain time
+    function removeWelcomeMessage() {
+      const welcomeMessage = document.querySelector('h3');
+      setTimeout(function() {
+        welcomeMessage.remove();
+      }, 3000); // Remove after 3 seconds (adjust the time as desired)
+    }
+  
+    // Call the functions when the page loads
+    window.addEventListener('DOMContentLoaded', function() {
+      displayWelcomeMessage();
+      addWelcomeClass();
+      removeWelcomeMessage();
+    });
+  </script>
+</body>
+</html>
